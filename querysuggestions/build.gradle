@@ -39,8 +39,8 @@ dependencies {
     implementation "com.android.support:design:$VERSION_SUPPORT"
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
 
-//    implementation "com.algolia:instantsearch-android:$VERSION_INSTANTSEARCH"
-    implementation project(":instantsearch")
+    implementation "com.algolia:instantsearch-android:$VERSION_INSTANTSEARCH"
+    //implementation project(":instantsearch")
 }
 repositories {
     mavenCentral()
